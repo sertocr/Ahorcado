@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang= "es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+        <title>Juego Ahorcado</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1><img id="logoAlura" src="../resources/Logos/Logo_Alura_Blanco.svg" alt="Logo Alura"></h1>
+            <h2>Juego Ahorcado</h2>
+
+        </header>
+
+        <main class="espaciosdecontenidos">
+
+            <textarea id="ingresarpalabra" placeholder="Ingrese una palabra"></textarea>
+
+            <section id="botonespalabra">
+
+                <div class="espacioerrores">
+                    <p class="invisible" id="textoconnumeros">No se admiten numeros en el juego</p>
+                    <p class="invisible" id="masdeocho">La palabra no puede tener más de 8 letras</p>
+                    <p class="invisible" id="menosdeuno">No se permiten valores vacíos</p>
+                    <p class="invisible" id="noacentos">No se permiten letras con acentos ni caracteres especiales</p>
+                </div>
+
+                <div id="contenedoralerta">
+                    <img class="imgalert" src="../resources/Simbolos/Alerta.svg" alt="Simbolo de alerta">
+                    <p class="textalert">Máx. de 8 letras </p>
+                </div>
+
+                <button class="BotonRojo" id="Btnsave">Guardar y empezar</button>
+                <a href="../index.html"><button class="BotonClaro" id="Btncancelar">Cancelar</button></a>
+
+            </section>
+            
+            <script src="../js/nuevapalabra.js"></script>
+
+        </main>
+
+        <footer id="contenedorfooter">
+
+            <p id="infocopy"> &#169; Carlos Armando Vargas Pérez</p>
+
+            <section>
+                <a href="https://app.aluracursos.com/user/arodas994"><img src="../resources/Logos/Logo_Alura.svg" class="logos"></a>
+                <a href="https://github.com/sertocr"><img src="../resources/Logos/icons8-github.svg" class="logos" id="logoGH"></a>
+                
+            </section>
+
+        </footer>
+
+    </body>
+
+</html>

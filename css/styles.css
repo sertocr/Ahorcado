@@ -1,0 +1,177 @@
+body{
+    background: #fcf3f7;
+}
+
+header{
+    background: #0a712e ;
+    display: flex;
+}
+
+#logoAlura{
+    height: 40px;
+    padding: 10px 20px;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 20px;
+	position: absolute;
+	right: 50px;
+	top: 20px;
+}
+
+#BotonesIniciales{
+    width: 18%;
+    margin: 300px auto 150px auto;
+}
+
+.BotonRojo{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    background: #0a712e;
+    border-color: #0a712e;
+    border-radius: 20px;
+    transition: all, 0.5s;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.BotonRojo:hover{
+    background: #0a712e;
+    cursor: pointer;
+}
+
+.BotonClaro{
+    color: #0a712e;
+    font-family: 'Montserrat', sans-serif;
+    background: #fcf3f7;
+    border-color: #0a712e;
+    border-radius: 20px;
+    transition: all, 0.5s;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.BotonClaro:hover{
+    background: #710a291b;
+    cursor: pointer;
+}
+
+#buttonNewGame{
+    width: 275px;
+    padding: 40px 0;
+}
+
+#buttonNewWord{
+    margin: 20px 0;
+    width: 275px;
+    padding: 20px 0;
+}
+
+#dibujoahorcado{
+    width: 40%;
+    margin: 0 30% 50px 30%;
+}
+
+.espaciosdecontenidos{
+    width: 45%;
+    margin: 60px auto 30px auto;
+}
+
+#lineasahorcado{
+    width: 100%;
+}
+
+#ingresarpalabra{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    height: 13em;
+    width: 100%;
+    outline-style: none;
+    border-style: none;
+    color: #0a712e;
+    background: #fcf3f7;
+    resize: none;
+    margin: 15px 0 30px 0;
+}
+
+#ingresarpalabra::placeholder{
+    color: #0a712e;
+    opacity: 40%;
+}
+
+#Btnsave{
+    width: 49%;
+    padding: 20px 0;
+}
+
+#btndesistir{
+    width: 49%;
+    padding: 20px 0;
+    margin: 0 auto 0 5px;
+}
+
+#btngame{
+    width: 49%;
+    padding: 20px 0;
+}
+
+#Btncancelar{
+    width: 49%;
+    padding: 20px 0;
+    margin: 0 auto 0 5px;
+}
+
+#contenedoralerta{
+    display: flex;
+    margin: 10px 0;
+}
+
+.imgalert{
+    width: 12px;
+    opacity: 50%;
+}
+
+.textalert{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-left: 7px;
+    color: black;
+    opacity: 70%;
+}
+
+.espacioerrores{
+    margin-bottom: 10px;
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.invisible{
+    display: none;
+}
+
+#infocopy{
+    font-family: 'Montserrat', sans-serif;
+    color: #0a712e;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+
+#contenedorfooter{
+    width: 50%;
+    margin: 0 10% 0 40%;
+    display: flex;
+}
+
+.logos{
+    height: 15px;
+}
+
+#logoGH{
+    margin: 0 15px 0 1px;
+}
